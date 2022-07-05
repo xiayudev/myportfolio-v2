@@ -32,6 +32,7 @@
 	<body class="antialiased">
 		<!-- Header item -->
 		<header class="fixed z-10 h-10 w-full">
+			<!-- Nav bar mobile -->
 			<nav class="flex h-full w-full">
 				<div class="flex h-full w-10 flex-col justify-between bg-terciary px-3 py-[15px]">
 					<div class="h-[2px] w-4 bg-pink-300"></div>
@@ -42,15 +43,24 @@
 					<span class="font-extralight text-slate-200">xiayudev&trade;</span>
 				</div>
 			</nav>
+
+			<!-- Nav bar tablet and desktop -->
+			<section class="hidden"></section>
 		</header>
 
 		<!-- Main item -->
 		<main class="h-auto w-full">
-			<section
-				class="h-[130vh] w-full border-b-4 border-b-terciary bg-setup bg-cover bg-center bg-no-repeat"
-			>
+			<!-- Section banner -->
+			<section class="relative h-screen w-full">
+				<div class="absolute h-full w-full">
+					<img
+						class="h-full w-full object-cover object-center"
+						src="./assets/img/code_with_glasses.png"
+						alt="code-with-glasses"
+					/>
+				</div>
 				<div
-					class="flex h-screen w-full flex-col items-center justify-end bg-black opacity-95"
+					class="absolute flex h-full w-full flex-col items-center justify-end bg-[#171820f2] opacity-95"
 				>
 					<div class="flex h-auto w-full flex-col items-center justify-center px-5 py-10">
 						<div class="flex h-full w-full flex-col items-center">
@@ -60,8 +70,7 @@
 								</h1>
 								<p class="text-center font-extralight leading-7 text-gray-300">
 									Hi, my name is Josue. I build things for the web. I am a junior
-									web developer and freelancer. Currently I am focused on building
-									accesible, human-centered, responsive web app and applications.
+									web developer and freelancer.
 								</p>
 							</div>
 							<img
@@ -71,7 +80,7 @@
 							/>
 						</div>
 					</div>
-					<a href="" class="grid h-40 w-40 place-items-center text-gray-300">
+					<a href="#" class="grid h-28 w-28 place-items-center text-gray-300">
 						<ion-icon
 							class="h-7 w-7 animate-bounce"
 							name="code-download-outline"
@@ -80,13 +89,508 @@
 				</div>
 			</section>
 
-			<section></section>
-			<section></section>
-			<section></section>
+			<!-- Section one - Introduction-->
+			<section class="h-auto w-full shadow-xl">
+				<div>
+					<img src="./assets/img/setup_pc.png" alt="" />
+				</div>
+				<div
+					class="border-t-2 border-blue-500 bg-primary py-10 text-center font-extralight text-gray-400"
+				>
+					<div class="space-y-10">
+						<div class="flex flex-col items-center space-y-4">
+							<h2 class="w-4/5 text-2xl font-medium text-gray-100">
+								A little about me and my work.
+							</h2>
+							<p class="text-gray-200">
+								Currently I am focused on building accesible, human-centered,
+								responsive web app and applications.
+							</p>
+						</div>
+						<div>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
+							velit eaque. Praesentium recusandae quod ducimus architecto accusamus!
+							Autem exercitationem commodi pariatur ab nemo dolorem enim animi
+							assumenda mollitia tempore!
+						</div>
+						<div>
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam
+							corrupti libero adipisci ex? Error nulla magnam quos quia ea. Totam
+							placeat libero nihil quaerat. Optio dicta quod maxime obcaecati!
+						</div>
+					</div>
+					<a class="hidden" href="#">
+						<ion-icon
+							class="h-7 w-7 animate-bounce"
+							name="code-download-outline"
+						></ion-icon>
+					</a>
+				</div>
+			</section>
+
+			<!-- Section two -  Project 1-->
+			<section class="h-auto w-full shadow-xl">
+				<div>
+					<img src="./assets/img/code_alone.png" alt="" />
+				</div>
+				<div
+					class="border-t-2 border-green-500 bg-primary py-10 px-5 text-center font-extralight text-gray-400"
+				>
+					<div class="space-y-10">
+						<div class="flex flex-col items-center space-y-4">
+							<h2 class="w-4/5 text-2xl font-medium text-gray-100">
+								A little about me and my work.
+							</h2>
+							<p class="text-gray-200">
+								Currently I am focused on building accesible, human-centered,
+								responsive web app and applications.
+							</p>
+						</div>
+						<div>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
+							velit eaque. Praesentium recusandae quod ducimus architecto accusamus!
+							Autem exercitationem commodi pariatur ab nemo dolorem enim animi
+							assumenda mollitia tempore!
+						</div>
+						<a
+							class="grid h-10 w-full place-items-center border border-gray-500 font-light text-gray-100"
+							href="#"
+							>Learn More
+						</a>
+					</div>
+				</div>
+				<a class="hidden" href="#">
+					<ion-icon
+						class="h-7 w-7 animate-bounce"
+						name="code-download-outline"
+					></ion-icon>
+				</a>
+			</section>
+
+			<!-- Section three - Project 2-->
+			<section class="h-auto w-full shadow-xl">
+				<div>
+					<img src="./assets/img/video_games.png" alt="" />
+				</div>
+				<div
+					class="border-t-2 border-terciary bg-primary py-10 px-5 text-center font-extralight text-gray-400"
+				>
+					<div class="space-y-10">
+						<div class="flex flex-col items-center space-y-4">
+							<h2 class="w-4/5 text-2xl font-medium text-gray-100">
+								A little about me and my work.
+							</h2>
+							<p class="text-gray-200">
+								Currently I am focused on building accesible, human-centered,
+								responsive web app and applications.
+							</p>
+						</div>
+						<div>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
+							velit eaque. Praesentium recusandae quod ducimus architecto accusamus!
+							Autem exercitationem commodi pariatur ab nemo dolorem enim animi
+							assumenda mollitia tempore!
+						</div>
+						<a
+							class="grid h-10 w-full place-items-center border border-gray-500 font-light text-gray-100"
+							href="#"
+							>Learn More
+						</a>
+					</div>
+				</div>
+				<a class="hidden" href="#">
+					<ion-icon
+						class="h-7 w-7 animate-bounce"
+						name="code-download-outline"
+					></ion-icon>
+				</a>
+			</section>
+
+			<!-- Section four - Other projects -->
+			<section
+				class="flex h-auto w-full flex-col border-t-4 border-t-gray-900 bg-primary py-10 px-5 font-extralight shadow-xl"
+			>
+				<!-- Work's introduction -->
+				<div class="flex flex-col items-center space-y-4">
+					<h2 class="text-center text-2xl font-medium text-gray-100">
+						Some other interesting projects
+					</h2>
+					<p class="text-center text-gray-400">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quasi minus, ab
+						repellendus excepturi vero impedit quibusdam!
+					</p>
+					<div class="h-1 w-3/4 max-w-xs bg-terciary"></div>
+				</div>
+
+				<!-- Works -->
+				<div class="h-auto w-full">
+					<!-- Work 1 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon
+								class="h-10 w-10 text-gray-100"
+								name="rocket-outline"
+							></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<!-- Links -->
+							<div class="flex items-center space-x-4">
+								<!-- github repo -->
+								<a href="https://github.com/TheSunLand7">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a href="#">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<!-- Github.io -->
+								<a href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Work 2 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon
+								class="h-10 w-10 text-gray-100"
+								name="rainy-outline"
+							></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<!-- Links -->
+							<div class="flex items-center space-x-4">
+								<a class="" href="">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Work 3 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon
+								class="h-10 w-10 text-gray-100"
+								name="qr-code-outline"
+							></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<div class="flex items-center space-x-4">
+								<a class="" href="">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Work 4 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon
+								class="h-10 w-10 text-gray-100"
+								name="terminal-outline"
+							></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<div class="flex items-center space-x-4">
+								<a class="" href="">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Work 5 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon class="h-10 w-10 text-gray-100" name="tv-outline"></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<div class="flex items-center space-x-4">
+								<a class="" href="">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Work 6 -->
+					<div class="flex flex-col items-center space-y-6 py-10">
+						<div class="grid h-28 w-28 place-items-center rounded-full bg-secondary">
+							<ion-icon
+								class="h-10 w-10 text-gray-100"
+								name="library-outline"
+							></ion-icon>
+						</div>
+						<div class="flex flex-col items-center space-y-6">
+							<h3 class="text-center text-xl font-light text-gray-100">
+								Title of porject
+							</h3>
+							<p class="text-center text-gray-400">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+								amet, voluptate amet, voluptate!
+							</p>
+							<div class="flex items-center space-x-4">
+								<a href="https://github.com/xiayudev/">
+									<img
+										class="h-7 w-7 fill-current text-white"
+										src="./assets/svg/github.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/netlify.svg"
+										alt="github-icon"
+									/>
+								</a>
+								<a class="" href="">
+									<img
+										class="h-5 w-5 fill-current text-white"
+										src="./assets/svg/external_link.svg"
+										alt="github-icon"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a
+					class="grid h-10 w-full place-items-center border border-gray-500 font-light text-gray-100"
+					href="#"
+					>Show More</a
+				>
+			</section>
+
+			<!-- Get in touch -->
+			<section
+				class="h-auto w-full space-y-6 bg-terciary py-10 px-5 font-extralight text-gray-200"
+			>
+				<div>
+					<h2 class="text-center text-2xl font-medium text-gray-100">
+						Get in touch with me!
+					</h2>
+					<p class="text-center">
+						Please, feel free to mail me if you want to get in touch with me!
+					</p>
+				</div>
+
+				<form action="" class="flex h-auto w-full flex-col">
+					<div class="mb-7">
+						<label for="name" class="flex flex-col space-y-4">
+							<span
+								class="font-normal after:ml-0.5 after:text-gray-300 after:content-['*']"
+								>Name</span
+							>
+							<input
+								class="h-12 rounded-xl border border-pink-400 bg-terciary px-5 text-pink-300 outline-none"
+								type="text"
+								id="name"
+								placeholder="Your name"
+								autocomplete="name"
+								required
+							/>
+						</label>
+					</div>
+					<div>
+						<label for="mail" class="flex flex-col space-y-2">
+							<span
+								class="inline-block font-normal after:ml-0.5 after:text-gray-300 after:content-['*']"
+								>E-mail</span
+							>
+							<input
+								class="peer h-12 rounded-xl border border-pink-400 bg-terciary px-5 text-pink-300 outline-none"
+								type="email"
+								id="mail"
+								placeholder="Your email"
+								autocomplete="email"
+							/>
+							<p class="invisible text-sm text-gray-300 peer-invalid:visible">
+								Please provide a valid email address
+							</p>
+						</label>
+					</div>
+					<div class="mb-10">
+						<label for="message" class="flex flex-col space-y-2">
+							<span
+								class="font-normal after:ml-0.5 after:text-gray-300 after:content-['*']"
+								>Message</span
+							>
+							<textarea
+								class="h-12 rounded-xl border border-pink-400 bg-terciary px-5 text-pink-300 outline-none"
+								type="text"
+								id="message"
+								placeholder="Your message"
+								required
+							></textarea>
+						</label>
+					</div>
+					<input
+						type="submit"
+						value="Send Message"
+						class="h-12 w-3/4 self-center rounded-xl bg-gray-100 text-terciary"
+					/>
+				</form>
+			</section>
 		</main>
 
 		<!-- Footer item -->
-		<footer></footer>
+		<footer class="h-auto w-full space-y-6 bg-primary py-10 px-5">
+			<div class="flex w-full items-center justify-center space-x-4">
+				<a href="https://linkedin.com">
+					<ion-icon class="h-6 w-6 text-gray-100" name="logo-linkedin"></ion-icon>
+				</a>
+				<a href="https://gihtub.com/xiayudev">
+					<img class="h-7 w-7" src="./assets/svg/github.svg" alt="github icon" />
+				</a>
+				<a href="https://instagram.com">
+					<ion-icon class="h-6 w-6 text-gray-100" name="logo-instagram"></ion-icon>
+				</a>
+				<a href="https://twitter.com/J7Jeo">
+					<ion-icon class="h-6 w-6 text-gray-100" name="logo-twitter"></ion-icon>
+				</a>
+				<a href="https://gitlab.com/TheSunLand7">
+					<ion-icon class="h-6 w-6 text-gray-100" name="logo-gitlab"></ion-icon>
+				</a>
+				<a href="https://codepen.io/thesunland7">
+					<ion-icon class="h-6 w-6 text-gray-100" name="logo-codepen"></ion-icon>
+				</a>
+			</div>
+			<div class="font-extralight text-gray-500">
+				<p class="text-center">Built by xiayudev&trade;. All rights reserved.</p>
+				<p class="text-center">
+					Design by
+					<a
+						class="underline decoration-gray-500 decoration-dotted decoration-2 underline-offset-2"
+						href="https://html5up.net"
+						>HTML5 UP</a
+					>
+				</p>
+			</div>
+		</footer>
 		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
