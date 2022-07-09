@@ -32,8 +32,7 @@
 
 	<body data-simplebar class="h-auto w-full antialiased">
 		<!-- Loader -->
-
-		<!-- Make loader not scroll content [fix it!]
+		<!-- Make loader not scroll content [fix it!] -->
 		<section
 			class="fixed left-0 right-0 top-0 bottom-0 z-40 grid h-full w-full animate-loading items-center justify-center bg-primary"
 		>
@@ -43,7 +42,7 @@
 				<img src="./assets/svg/rings.svg" alt="rings" />
 				Loading...
 			</div>
-		</section> -->
+		</section>
 
 		<!-- Header item -->
 		<header class="fixed z-20 h-10 w-full sm:absolute">
@@ -125,27 +124,21 @@
 			<section class="relative h-screen w-full">
 				<div
 					class="absolute h-full w-full bg-coding-with-glasses bg-cover bg-center md:bg-fixed"
-				>
-					<!-- <img
-						class="h-full w-full object-cover object-center"
-						src="./assets/img/code_with_glasses.png"
-						alt="code-with-glasses"
-					/> -->
-				</div>
+				></div>
 				<div
 					class="absolute flex h-full w-full flex-col items-center justify-end space-y-4 bg-gradient-to-b from-primary to-[#171820f2] opacity-95 md:space-y-16 lg:space-y-20 xl:space-y-32"
 				>
 					<div
-						class="flex h-auto w-full flex-col items-center justify-center px-5 py-10 sm:px-14 md:px-20"
+						class="flex h-auto w-auto flex-col items-center justify-center px-5 py-10 sm:px-14 md:px-20"
 					>
 						<div
-							class="flex h-full w-full flex-col items-center space-y-6 md:max-w-4xl md:flex-row md:justify-evenly"
+							class="flex h-auto w-auto flex-col items-center space-y-6 md:max-w-4xl md:flex-row md:justify-evenly md:space-x-4 md:space-y-0"
 						>
-							<div class="space-y-4 sm:px-10 md:pl-0">
+							<div class="space-y-4 sm:px-10 md:space-y-0 md:px-0">
 								<h1
 									class="mb-2 text-center text-2xl font-medium text-gray-100 sm:text-4xl lg:text-6xl"
 								>
-									Web Developer
+									Web Developer For Fun
 								</h1>
 								<p
 									class="text-center font-extralight leading-7 text-gray-300 sm:text-lg lg:text-2xl lg:leading-relaxed"
@@ -154,11 +147,16 @@
 									web developer and freelancer.
 								</p>
 							</div>
-							<img
-								class="mt-6 h-[140px] w-[140px] rounded-full border-2 border-gray-300 sm:h-60 sm:w-60 lg:h-72 lg:w-72"
-								src="./assets/img/man_programming.png"
-								alt="Annonymus"
-							/>
+							<picture
+								class="mt-6 h-36 w-36 rounded-full sm:h-60 sm:w-60 md:mt-0 md:h-64 md:w-[490px] lg:h-80"
+							>
+								<source srcset="assets/img/me.avif" type="image/avif" />
+								<img
+									src="./assets/img/me.png"
+									alt="me"
+									class="h-full w-full rounded-full border-2 border-terciary object-cover object-center"
+								/>
+							</picture>
 						</div>
 					</div>
 					<a
@@ -166,7 +164,7 @@
 						class="grid h-28 w-28 place-items-center text-gray-300 lg:h-32 lg:w-32"
 					>
 						<ion-icon
-							class="h-7 w-7 animate-bounce lg:h-10 lg:w-10"
+							class="h-7 w-7 animate-bounce transition-all duration-500 lg:h-10 lg:w-10 lg:hover:text-terciary"
 							name="code-download-outline"
 						></ion-icon>
 					</a>
@@ -188,24 +186,25 @@
 							<h2
 								class="w-4/5 text-2xl font-medium text-gray-100 lg:text-3xl 2xl:text-4xl"
 							>
-								A little about me and my work &#x1F601;.
+								A little about me and my work &#x270D;.
 							</h2>
 							<p class="text-gray-200 2xl:text-lg">
-								Currently I am focused on building accesible, human-centered,
-								responsive web app and applications.
+								Hello! I am xiayudev and I love creating some useful stuffs for the
+								web and everything related to the internet and techs.
 							</p>
 						</div>
 						<div class="2xl:text-lg">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
-							velit eaque. Praesentium recusandae quod ducimus architecto accusamus!
-							Autem exercitationem commodi pariatur ab nemo dolorem enim animi
-							assumenda mollitia tempore!
+							My journey in web development started when I was curious about how web
+							pages were built and started to edit them on devtools of Chrome web
+							browser. After that, step by step I was falling in love with every thing
+							that I was able to build. Now, I cannot live without coding.
 						</div>
 						<div class="2xl:text-lg">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam
-							corrupti libero adipisci ex? Error nulla magnam quos quia ea. Totam
-							placeat libero nihil quaerat. Optio dicta quod maxime obcaecati! Optio
-							dicta quod maxime obcaecati!
+							Nowadays, I am learning frameworks for CSS and Javascript. Also, I will
+							learn back-end techs and all related to this amazing path. I know this
+							path takes time but I will work smart, tough and gain the respect of the
+							comunity. Currently I am focused on building accesible, human-centered,
+							responsive web app and applications.
 						</div>
 					</div>
 					<a
@@ -242,11 +241,12 @@
 							<h2
 								class="w-4/5 text-2xl font-medium text-gray-100 lg:text-3xl 2xl:text-4xl"
 							>
-								A little about me and my work &#x1F981;.
+								Title of my first big project &#x1F981;.
 							</h2>
 							<p class="text-gray-200 2xl:text-lg">
-								Currently I am focused on building accesible, human-centered,
-								responsive web app and applications.
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum
+								nobis itaque corporis quia. Expedita exercitationem quos sint
+								accusantium illo.
 							</p>
 						</div>
 						<div class="2xl:text-lg">
@@ -291,11 +291,12 @@
 							<h2
 								class="w-4/5 text-2xl font-medium text-gray-100 lg:text-3xl 2xl:text-4xl"
 							>
-								A little about me and my work &#x1F9D0;.
+								Title of my second big project &#x1F9D0;.
 							</h2>
 							<p class="text-gray-200 2xl:text-lg">
-								Currently I am focused on building accesible, human-centered,
-								responsive web app and applications.
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+								eum nam magnam asperiores quod, architecto distinctio commodi
+								doloremque odit saepe!
 							</p>
 						</div>
 						<div class="2xl:text-lg">
@@ -855,12 +856,13 @@
 			<div class="space-x-4 font-extralight text-gray-500 sm:flex sm:justify-center">
 				<p class="text-center">Built by xiayudev&trade;. All rights reserved.</p>
 				<p class="text-center">
-					Design by
+					Design by &#x1F449;
 					<a
 						class="underline decoration-gray-500 decoration-dotted decoration-2 underline-offset-2 lg:hover:text-terciary lg:hover:no-underline"
 						href="https://html5up.net"
 						>HTML5 UP</a
 					>
+					&#x1F448;
 				</p>
 			</div>
 			<div>
@@ -868,10 +870,11 @@
 					Buy me a
 					<a
 						href="https://paypal.me/josct7"
+						target="_blank"
 						class="underline decoration-gray-500 decoration-dotted decoration-2 underline-offset-2 lg:hover:text-terciary lg:hover:no-underline"
-						>coffee
-						<ion-icon name="logo-paypal" class="h-6 w-6"></ion-icon>
+						>coffee <ion-icon name="logo-paypal" class="h-6 w-6"></ion-icon>
 					</a>
+					&#x1F601;
 				</p>
 			</div>
 		</footer>
