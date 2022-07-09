@@ -7,3 +7,19 @@
 		font-family: "Roboto Flex", sans-serif;
 	}
 }
+
+/* Class for hamburger icon */
+.open {
+	transform: rotate(90deg);
+	transform: translateY(0px);
+}
+
+.open .ham-top {
+	transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .ham-middle {
+	display: none;
+}
+.open .ham-bottom {
+	transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
